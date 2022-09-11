@@ -1,0 +1,166 @@
+{
+  "movies": [
+    {
+      "title": "492",
+      "poster": "https://flockstudio.in/assets/images/popular_movies/492.jpg",
+      "trailer": "https://player.vimeo.com/video/644840322"
+    },
+    {
+      "title": "Beautiful City",
+      "poster": "https://flockstudio.in/assets/images/popular_movies/beautiful_city.webp",
+      "trailer": "https://player.vimeo.com/video/644844633"
+    },
+    {
+      "title": "BlackFly",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/black_fly.jpg",
+      "trailer": "https://player.vimeo.com/video/644845765"
+    },
+    {
+      "title": "Commandos",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/commandos.webp",
+      "trailer": "https://player.vimeo.com/video/645312871"
+    },
+    {
+      "title": "GreyEyes",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/grey_eyes.jpg",
+      "trailer": "https://player.vimeo.com/video/641807094"
+    },
+    {
+      "title": "High Life",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/high_life.jpg",
+      "trailer": "https://player.vimeo.com/video/678679506"
+    },
+    {
+      "title": "No Signature",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/no_date_no_signature.webp",
+      "trailer": "https://player.vimeo.com/video/645312871"
+    },
+    {
+      "title": "Six Horas",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/six_horas.jpg",
+      "trailer": "https://player.vimeo.com/video/641818885"
+    },
+    {
+      "title": "Awakening",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/tales.webp",
+      "trailer": "https://player.vimeo.com/video/644843422"
+    },
+    {
+      "title": "Unmasked",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/unmasked.jpg",
+      "trailer": "https://player.vimeo.com/video/645123449"
+    },
+    {
+      "title": "View",
+      "poster": "https://www.flockstudio.in/assets/images/popular_movies/view.jpg",
+      "trailer": "https://player.vimeo.com/video/644843422"
+    },
+    {
+      "title": "Love Square",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/love_square.jpg",
+      "trailer": "https://player.vimeo.com/video/645113930"
+    },
+    {
+      "title": "Nine Moments",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/nine_moments.jpg",
+      "trailer": "https://player.vimeo.com/video/644839798"
+    },
+    {
+      "title": "Not So Cool Mom",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/not_so_cool_mom.jpg",
+      "trailer": "https://player.vimeo.com/video/678708463"
+    },
+    {
+      "title": "Feral",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/feral.jpg",
+      "trailer": "https://player.vimeo.com/video/645064614"
+    },
+    {
+      "title": "Entombed",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/entombed.jpg",
+      "trailer": "https://player.vimeo.com/video/645061011"
+    },
+    {
+      "title": "Blondie Maxwell",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/blondie_maxwell.jpg",
+      "trailer": "https://player.vimeo.com/video/644846513"
+    },
+    {
+      "title": "Baby Doll",
+      "poster": "https://www.flockstudio.in/assets/images/NewReleas/baby_doll.jpg",
+      "trailer": "https://player.vimeo.com/video/644843533"
+    },
+    {
+      "title": "MayFair",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/Mayfair.jpg",
+      "trailer": "https://player.vimeo.com/video/641887275"
+    },
+    {
+      "title": "Dreaming Alaska",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/DreamingAlaska.jpg",
+      "trailer": "https://player.vimeo.com/video/645058569"
+    },
+    {
+      "title": "Watch Me Burn",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/WatchMeBurn.jpg",
+      "trailer": "https://player.vimeo.com/video/646329636"
+    },
+    {
+      "title": "Alex And Eve",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/AlexAndEve.jpg",
+      "trailer": "https://player.vimeo.com/video/641820611"
+    },
+    {
+      "title": "Max & Me",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/MaxnMe.jpg",
+      "trailer": "https://player.vimeo.com/video/641820611"
+    },
+    {
+      "title": "Knives Out",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/KnivesOut.jpg",
+      "trailer": "https://player.vimeo.com/video/671410433"
+    },
+    {
+      "title": "Zero To I Love You",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/ILU.jpg",
+      "trailer": "https://player.vimeo.com/video/645071061"
+    },
+    {
+      "title": "Growing Up",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/GrowingOp.jpg",
+      "trailer": "https://player.vimeo.com/video/645071972"
+    },
+    {
+      "title": "Boda Boda Theif",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/BodaBodaThief.jpg",
+      "trailer": "https://player.vimeo.com/video/641824141"
+    },
+    {
+      "title": "Tour Du Faso",
+      "poster": "https://www.flockstudio.in/assets/images/TREND/TourDuFaso.jpg",
+      "trailer": "https://player.vimeo.com/video/645122901"
+    }
+  ],
+  "popular": [
+    {
+      "title": "Aleph",
+      "poster": "https://thumbs.dreamstime.com/b/hebrew-letter-alef-first-alphabet-meaning-head-bull-gold-design-black-background-vector-alefbet-162085261.jpg",
+      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
+    },
+    {
+      "title": "Bad Apples",
+      "poster": "https://i0.wp.com/storage.waploaded.com/images/257fd24f925482ce6db5f89b40af8f2e.png",
+      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
+    },
+    {
+      "title": "BlackOut",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjFjOTAwNDgtMzQxMC00YzA0LWIxYWItNTc0MmU4ZWQxMGFmXkEyXkFqcGdeQXVyODIxODExOA@@._V1_.jpg",
+      "trailer": "https://player.vimeo.com/video/644846264?title=0&autoplay=0&byline=0"
+    },
+    {
+      "title": "Penny On Mars",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWM3MTVjOGEtNGQ0ZS00MjNmLWIwNDMtNmNkYWJkMmZlZTM0XkEyXkFqcGdeQXVyODEyMTE2ODk@._V1_.jpg",
+      "trailer": "https://player.vimeo.com/video/645117375?title=0&autoplay=0&byline=0"
+    }
+  ]
+}

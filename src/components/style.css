@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* body */
+
+body {
+  background-color: black;
+}
+
+/* Navbar */
+.navtext {
+  font-family: Lato;
+}
+
+.nav-link:hover {
+  font-size: large;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+/* Video Player */
+
+.videoPlayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.embed-responsive {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+}
+
+/* Card System */
+
+.card {
+  width: 180px;
+  align-items: center;
+  cursor: pointer;
+  transition: width 1s;
+  border: black;
+}
+
+.card-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+}
+
+.cardText-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.playButton {
+  font-size: 50px;
+  color: rgba(240, 234, 230, 0.7);
+  padding-top: 30%;
+}
+
+.playButton:hover {
+  font-size: 50px;
+  color: rgba(240, 234, 230, 1);
+  padding-top: 30%;
+}
+
+.card:hover {
+  width: 190px;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+  border: black;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: black;
+  font-family: Poppins;
+  font-weight: 500;
+  color: white;
+}
