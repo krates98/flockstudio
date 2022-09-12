@@ -51,16 +51,58 @@ body {
 
 /* Card System */
 
-.card {
-  width: 180px;
-  align-items: center;
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 350px;
+  perspective: 1000px;
+  margin: 10px;
   cursor: pointer;
-  transition: width 1s;
-  border: black;
+  border-radius: 20px;
 }
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.avatar {
+  width: 250;
+  height: 350px;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* */
+
 .card-text {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Antonio;
   font-weight: 500;
   color: white;
   padding: 10px;
@@ -71,22 +113,55 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .playButton {
   font-size: 50px;
-  color: rgba(240, 234, 230, 0.7);
-  padding-top: 30%;
+  color: rgba(247, 12, 12, 0.7);
+  padding-top: 50%;
 }
 
-.playButton:hover {
-  font-size: 50px;
-  color: rgba(240, 234, 230, 1);
-  padding-top: 30%;
+/* Cards Running */
+
+.scroll-tray {
+  white-space: nowrap;
 }
 
-.card:hover {
+.scroll-tray div {
+  display: inline-block;
+}
+
+.scroll-tray img {
+  border-radius: 0.3rem;
+  margin: 7px 5px;
+  padding: 0;
+  width: 340px;
+}
+
+.scroll-holder {
+  overflow-x: hidden;
+}
+
+.scroll-holder .scroll-tray:first-child {
+  animation: scroll-tray-hero 180s linear infinite;
+}
+
+@keyframes scroll-tray-hero {
+  0% {
+    transform: translateX(0);
+  }
+
+  99.99% {
+    transform: translateX(-7089px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 
+  .card:hover {
   width: 190px;
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
   border: black;
@@ -95,7 +170,7 @@ body {
   -ms-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-}
+} */
 
 /* Footer */
 

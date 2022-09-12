@@ -9,7 +9,7 @@ const ProductsDisplay = ({ data, onVideoSelect }) => {
     );
   });
   return (
-    <div className="d-flex flex-wrap mb-3 justify-content-around cards">
+    <div className="d-flex flex-wrap mb-3 justify-content-around cards container">
       {renderedList}
     </div>
   );
