@@ -1,6 +1,6 @@
 import React from "react";
 import ProductsItem from "./ProductItem";
-import style from "./style.css";
+import "./style.css";
 
 const ProductsDisplay = ({ data, onVideoSelect }) => {
   const renderedList = data.movies.map((dat) => {

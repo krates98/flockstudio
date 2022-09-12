@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.css";
+import "./style.css";
 
 const VideoPlayer = ({ dat }) => {
   if (!dat) {
@@ -12,6 +12,7 @@ const VideoPlayer = ({ dat }) => {
       <>
         <div className="container embed-responsive embed-responsive-16by9 iframeVideo">
           <iframe
+            title={dat.title}
             className="embed-responsive-item videoPlayer"
             src={videoSrc}
             allow="autoplay"

@@ -9,10 +9,10 @@ import data from "../data.json";
 class Home extends React.Component {
   state = { selectedVideo: null };
 
-  // componentDidMount() {
-  //   const rand = Math.floor(Math.random() * 28);
-  //   this.setState({ selectedVideo: data.movies[rand] });
-  // }
+  componentDidMount() {
+    const rand = Math.floor(Math.random() * 28);
+    this.setState({ selectedVideo: data.movies[rand] });
+  }
 
   onVideoSelect = (dat) => {
     this.setState({ selectedVideo: dat });
@@ -23,11 +23,12 @@ class Home extends React.Component {
     return (
       <>
         <div>
-          <VideoPlayer dat={this.state.selectedVideo} />
-        </div>
-        <div>
           <Slider />
         </div>
+        {/* <div>
+          <VideoPlayer dat={this.state.selectedVideo} />
+        </div> */}
+
         <div>
           <ProductsDisplay onVideoSelect={this.onVideoSelect} data={data} />
         </div>

@@ -4,8 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
 
-@import "@splidejs/react-splide/css";
-
 @font-face {
   font-family: Baguet;
   src: url(/public/burnstown-dam/burnstown\ dam.ttf);
@@ -18,8 +16,11 @@ body {
 }
 
 /* Navbar */
+
 .navtext {
   font-family: Lato;
+  position: absolute;
+  top: 20px;
 }
 
 .nav-link:hover {
@@ -58,7 +59,6 @@ body {
   perspective: 1000px;
   margin: 10px;
   cursor: pointer;
-  border-radius: 20px;
 }
 
 .flip-card-inner {
@@ -90,7 +90,7 @@ body {
 }
 
 .avatar {
-  width: 250;
+  width: 250px;
   height: 350px;
 }
 
@@ -122,46 +122,7 @@ body {
   padding-top: 50%;
 }
 
-/* Cards Running */
-
-.scroll-tray {
-  white-space: nowrap;
-}
-
-.scroll-tray div {
-  display: inline-block;
-}
-
-.scroll-tray img {
-  border-radius: 0.3rem;
-  margin: 7px 5px;
-  padding: 0;
-  width: 340px;
-}
-
-.scroll-holder {
-  overflow-x: hidden;
-}
-
-.scroll-holder .scroll-tray:first-child {
-  animation: scroll-tray-hero 180s linear infinite;
-}
-
-@keyframes scroll-tray-hero {
-  0% {
-    transform: translateX(0);
-  }
-
-  99.99% {
-    transform: translateX(-7089px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-/* 
-  .card:hover {
+/* .card:hover {
   width: 190px;
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
   border: black;
@@ -183,30 +144,179 @@ body {
 
 /* Slider */
 
-.slider {
-  display: flex;
-  justify-content: right;
-  margin: 2% 2%;
+.slider1 {
+  padding: 55vh;
 }
 
-.splide__slide img {
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+  height: 90vh;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  overflow: hidden;
 }
 
-.titleSlider {
-  display: flex;
-  justify-content: right;
+.banner1 img,
+.banner2 img,
+.banner3 img,
+.banner4 img {
+  width: 120%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: zoom-out 3s linear infinite;
+}
+
+@keyframes zoom-out {
+  100% {
+    width: 100%;
+  }
+}
+
+.text-box {
+  width: 600px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
   color: white;
-  margin: auto;
-  font-family: Antonio;
-  font-size: 350%;
+  animation: textup 12s linear infinite;
+  transform: translateY(100px);
+  text-shadow: 5px 5px 10px black;
 }
 
-.sliderBg {
-  background-color: rgb(31, 31, 31);
-  margin: 20px auto;
-  border-radius: 20px;
+@keyframes textup {
+  10% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.text-box1 {
+  animation-delay: 0s;
+}
+.text-box2 {
+  animation-delay: 3s;
+}
+.text-box3 {
+  animation-delay: 6s;
+}
+.text-box4 {
+  animation-delay: 9s;
+}
+
+.text-box h1 {
+  margin-bottom: 40px;
+}
+.text-box p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+
+.text-box span {
+  background: red;
+  height: 1px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+}
+.banner1 {
+  animation: slide1 12s linear infinite;
+}
+.banner2 {
+  animation: slide2 12s linear infinite;
+}
+.banner3 {
+  animation: slide3 12s linear infinite;
+}
+.banner4 {
+  animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1 {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide3 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide4 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.comingSoon {
+  width: 600px;
+  position: absolute;
+  bottom: 1%;
+  left: 88%;
+  color: white;
+  text-shadow: 5px 5px 10px black;
 }
