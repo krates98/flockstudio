@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+
+@import "@splidejs/react-splide/css";
+
+@font-face {
+  font-family: Baguet;
+  src: url(/public/burnstown-dam/burnstown\ dam.ttf);
+}
+
 /* body */
 
 body {
@@ -94,4 +104,34 @@ body {
   font-family: Poppins;
   font-weight: 500;
   color: white;
+}
+
+/* Slider */
+
+.slider {
+  display: flex;
+  justify-content: right;
+  margin: 2% 2%;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.titleSlider {
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin: auto;
+  font-family: Antonio;
+  font-size: 350%;
+}
+
+.sliderBg {
+  background-color: rgb(31, 31, 31);
+  margin: 20px auto;
+  border-radius: 20px;
 }

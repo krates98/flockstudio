@@ -1,7 +1,5 @@
 import React from "react";
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
-import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+
 import ProductsDisplay from "./ProductsDisplay";
 import VideoPlayer from "./VideoPlayer";
 import Footer from "./Footer";
@@ -25,10 +23,10 @@ class Home extends React.Component {
     return (
       <>
         <div>
-          <Slider />
+          <VideoPlayer dat={this.state.selectedVideo} />
         </div>
         <div>
-          <VideoPlayer dat={this.state.selectedVideo} />
+          <Slider />
         </div>
         <div>
           <ProductsDisplay onVideoSelect={this.onVideoSelect} data={data} />
