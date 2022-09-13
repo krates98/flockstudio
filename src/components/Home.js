@@ -16,7 +16,6 @@ class Home extends React.Component {
 
   onVideoSelect = (dat) => {
     this.setState({ selectedVideo: dat });
-    window.scrollTo(0, 0);
   };
 
   render() {
