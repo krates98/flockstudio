@@ -20,18 +20,30 @@ const ProductsItem = ({ dat, onVideoSelect }) => {
             onClick={() => onVideoSelect(dat)}
           >
             <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img className="avatar" src={dat.poster} alt="Avatar" />
+              <div className="flip-card-front hover-overlay">
+                <img className="avatar " src={dat.poster} alt="Avatar" />
                 <div className="card-body card-img-overlay firstOverlay">
                   <div className="playButton text-center">
                     <i className="bi bi-play-btn-fill"></i>
+                  </div>
+                  <div className="banner-content">
+                    <div className="cardOverlayText">
+                      <h2>{dat.title}</h2>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                      </p>
+                    </div>
                   </div>
                   <div className="cardText-overlay">
                     <p className="card-text">{dat.title}</p>
                   </div>
                 </div>
               </div>
-              <div className="flip-card-back cardFlipBack">
+              {/* <div className="flip-card-back cardFlipBack">
                 <img className="avatar" src={dat.poster} alt="Avatar" />
                 <div className="card-body card-img-overlay flipOverlay">
                   <h1>{dat.title}</h1>
@@ -47,7 +59,7 @@ const ProductsItem = ({ dat, onVideoSelect }) => {
                     type specimen book.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         }
