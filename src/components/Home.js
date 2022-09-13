@@ -1,10 +1,9 @@
 import React from "react";
-
 import ProductsDisplay from "./ProductsDisplay";
-import VideoPlayer from "./VideoPlayer";
 import Footer from "./Footer";
 import Slider from "./Slider";
 import data from "../data.json";
+import VideoPlayer from "./VideoPlayer";
 
 class Home extends React.Component {
   state = { selectedVideo: null };
@@ -24,12 +23,12 @@ class Home extends React.Component {
         <div>
           <Slider />
         </div>
-        {/* <div>
-          <VideoPlayer dat={this.state.selectedVideo} />
-        </div> */}
+        <div>
+          <VideoPlayer />
+        </div>
 
         <div>
-          <ProductsDisplay onVideoSelect={this.onVideoSelect} data={data} />
+          <ProductsDisplay data={data} />
         </div>
 
         <div>
