@@ -99,7 +99,31 @@
       "title": "Dreaming Alaska",
       "poster": "https://www.flockstudio.in/assets/images/TREND/DreamingAlaska.jpg",
       "trailer": "https://player.vimeo.com/video/645058569"
+    }
+  ],
+  "popular": [
+    {
+      "title": "Aleph",
+      "poster": "https://thumbs.dreamstime.com/b/hebrew-letter-alef-first-alphabet-meaning-head-bull-gold-design-black-background-vector-alefbet-162085261.jpg",
+      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
     },
+    {
+      "title": "Bad Apples",
+      "poster": "https://i0.wp.com/storage.waploaded.com/images/257fd24f925482ce6db5f89b40af8f2e.png",
+      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
+    },
+    {
+      "title": "BlackOut",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjFjOTAwNDgtMzQxMC00YzA0LWIxYWItNTc0MmU4ZWQxMGFmXkEyXkFqcGdeQXVyODIxODExOA@@._V1_.jpg",
+      "trailer": "https://player.vimeo.com/video/644846264?title=0&autoplay=0&byline=0"
+    },
+    {
+      "title": "Penny On Mars",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWM3MTVjOGEtNGQ0ZS00MjNmLWIwNDMtNmNkYWJkMmZlZTM0XkEyXkFqcGdeQXVyODEyMTE2ODk@._V1_.jpg",
+      "trailer": "https://player.vimeo.com/video/645117375?title=0&autoplay=0&byline=0"
+    }
+  ],
+  "trending": [
     {
       "title": "Watch Me Burn",
       "poster": "https://www.flockstudio.in/assets/images/TREND/WatchMeBurn.jpg",
@@ -139,28 +163,6 @@
       "title": "Tour Du Faso",
       "poster": "https://www.flockstudio.in/assets/images/TREND/TourDuFaso.jpg",
       "trailer": "https://player.vimeo.com/video/645122901"
-    }
-  ],
-  "popular": [
-    {
-      "title": "Aleph",
-      "poster": "https://thumbs.dreamstime.com/b/hebrew-letter-alef-first-alphabet-meaning-head-bull-gold-design-black-background-vector-alefbet-162085261.jpg",
-      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
-    },
-    {
-      "title": "Bad Apples",
-      "poster": "https://i0.wp.com/storage.waploaded.com/images/257fd24f925482ce6db5f89b40af8f2e.png",
-      "trailer": "https://player.vimeo.com/video/644841857?title=0&autoplay=0&byline=0"
-    },
-    {
-      "title": "BlackOut",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjFjOTAwNDgtMzQxMC00YzA0LWIxYWItNTc0MmU4ZWQxMGFmXkEyXkFqcGdeQXVyODIxODExOA@@._V1_.jpg",
-      "trailer": "https://player.vimeo.com/video/644846264?title=0&autoplay=0&byline=0"
-    },
-    {
-      "title": "Penny On Mars",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWM3MTVjOGEtNGQ0ZS00MjNmLWIwNDMtNmNkYWJkMmZlZTM0XkEyXkFqcGdeQXVyODEyMTE2ODk@._V1_.jpg",
-      "trailer": "https://player.vimeo.com/video/645117375?title=0&autoplay=0&byline=0"
     }
   ]
 }

@@ -1,5 +1,7 @@
 //{data.popular[1].poster}
 
+import React from "react";
+
 const Slider = () => {
   return (
     <>

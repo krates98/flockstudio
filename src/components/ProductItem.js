@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import { Image, Shimmer } from "react-shimmer";
 
 AOS.init();
 
