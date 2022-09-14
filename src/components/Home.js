@@ -10,8 +10,9 @@ class Home extends React.Component {
   state = { selectedVideo: null };
 
   componentDidMount() {
-    const rand = Math.floor(Math.random() * 28);
-    this.setState({ selectedVideo: data.movies[rand] });
+    // const rand = Math.floor(Math.random() * 28);
+    // this.setState({ selectedVideo: data.movies[rand] });
+    console.log(this.state.selectedVideo);
   }
 
   onVideoSelect = (dat) => {
