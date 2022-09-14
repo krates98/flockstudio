@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Slider from "./Slider";
 import data from "../data.json";
 import VideoPlayer from "./VideoPlayer";
+import TrendingMovies from "./TrendingMovies";
 
 class Home extends React.Component {
   state = { selectedVideo: null };
@@ -29,6 +30,10 @@ class Home extends React.Component {
 
         <div>
           <ProductsDisplay data={data} />
+        </div>
+
+        <div>
+          <TrendingMovies />
         </div>
 
         <div>

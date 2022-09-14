@@ -18,15 +18,14 @@ const ProductsItem = ({ dat, onVideoSelect }) => {
             data-aos="fade-up"
             data-aos-duration="1500"
             className="flip-card"
-            onClick={() => onVideoSelect(dat)}
           >
             <div className="flip-card-inner">
               <div className="flip-card-front hover-overlay">
                 <img className="avatar " src={dat.poster} alt="Avatar" />
                 <div className="card-body card-img-overlay firstOverlay">
-                  <div className="playButton text-center">
+                  {/* <div className="playButton text-center">
                     <i className="bi bi-play-btn-fill"></i>
-                  </div>
+                  </div> */}
                   <div className="banner-content">
                     <div className="cardOverlayText">
                       <h2>{dat.title}</h2>

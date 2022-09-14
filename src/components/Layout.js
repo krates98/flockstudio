@@ -5,15 +5,12 @@ const Layout = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong navtext">
         <div className="container-fluid">
-          <img
-            src="https://flockstudio.in/assets/images/flock_logo_small.png"
-            alt=""
-            width="30"
-            height="24"
-            className="d-inline-block align-text-top"
-          />
           <Link className="navbar-brand text-white" to="/">
-            Flock Entertainment
+            <img
+              src="/flockLogo.png"
+              alt=""
+              className="d-inline-block align-text-top"
+            />
           </Link>
           <button
             className="navbar-toggler"
