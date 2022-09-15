@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Baguet;
-  src: url(/public/burnstown-dam/burnstown\ dam.ttf);
+  src: url(/public/burnstown-dam/burnstown\dam.ttf);
 }
 
 /* body */
@@ -196,12 +196,12 @@ body {
 .banner2 img,
 .banner3 img,
 .banner4 img {
-  width: 120%;
+  width: 105%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  animation: zoom-out 3s linear infinite;
+  animation: zoom-out 5s linear infinite;
 }
 
 @keyframes zoom-out {

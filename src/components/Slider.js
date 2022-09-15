@@ -1,4 +1,6 @@
 //{data.popular[1].poster}
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import React from "react";
 
@@ -7,9 +9,18 @@ const Slider = () => {
     <>
       <div className="slider1">
         <div className="banner1">
-          <img alt="Venom" src="https://wallpaper.dog/large/11036510.jpg" />
+          <LazyLoadImage
+            className="imageSlider"
+            width={1920}
+            height={1200}
+            effect="blur"
+            src="https://wallpaper.dog/large/694689.jpg" // use normal <img> attributes as props
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+          />
+
+          {/* <img alt="Venom" src="" /> */}
           <div className="text-box text-box1 ">
-            <h1>Venom</h1>
+            <h1>Joker</h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,12 +31,16 @@ const Slider = () => {
           </div>
         </div>
         <div className="banner2">
-          <img
-            alt="Van Helsing"
-            src="https://wallpaper.dog/large/11036762.jpg"
+          <LazyLoadImage
+            width={1920}
+            height={1080}
+            effect="blur"
+            src="https://wallpaper.dog/large/697091.jpg" // use normal <img> attributes as props
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
           />
+
           <div className="text-box text-box2">
-            <h1>Van Helsing</h1>
+            <h1>Warcraft</h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -36,12 +51,19 @@ const Slider = () => {
           </div>
         </div>
         <div className="banner3">
-          <img
+          <LazyLoadImage
+            width={1920}
+            height={1080}
+            effect="blur"
+            src="https://wallpaper.dog/large/696881.jpg" // use normal <img> attributes as props
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+          />
+          {/* <img
             alt="Guardians Of The Galaxy"
             src="https://wallpaper.dog/large/11036753.jpg"
-          />
+          /> */}
           <div className="text-box text-box3">
-            <h1>Tron</h1>
+            <h1>Batman</h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -52,12 +74,19 @@ const Slider = () => {
           </div>
         </div>
         <div className="banner4">
-          <img
+          <LazyLoadImage
+            width={1920}
+            height={1080}
+            effect="blur"
+            src="https://wallpaper.dog/large/5531132.jpg" // use normal <img> attributes as props
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+          />
+          {/* <img
             alt="Game Of Thrones"
             src="https://wallpaper.dog/large/11036520.jpg"
-          />
+          /> */}
           <div className="text-box text-box4">
-            <h1>Spider-Man</h1>
+            <h1>Lucifer</h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
