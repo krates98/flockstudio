@@ -1,4 +1,3 @@
-//{data.popular[1].poster}
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -11,8 +10,6 @@ const Slider = () => {
         <div className="banner1">
           <LazyLoadImage
             className="imageSlider"
-            width={1920}
-            height={1200}
             effect="blur"
             src="https://wallpaper.dog/large/694689.jpg" // use normal <img> attributes as props
             placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
