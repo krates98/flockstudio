@@ -9,7 +9,8 @@ const Slider = () => {
       <div className="slider1">
         <div className="banner1">
           <LazyLoadImage
-            className="imageSlider"
+            width={1920}
+            height={1080}
             effect="blur"
             src="https://wallpaper.dog/large/694689.jpg" // use normal <img> attributes as props
             placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
