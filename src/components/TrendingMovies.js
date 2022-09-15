@@ -24,24 +24,51 @@ const TrendingMovies = () => {
             <div class="carousel-item active">
               <LazyLoadImage
                 effect="blur"
-                src="https://www.vitalthrills.com/wp-content/uploads/2021/07/duning5.jpg.webp" // use normal <img> attributes as props
+                src="https://moviegalleri.net/wp-content/gallery/master-release-posters-hd/Master-Movie-Release-Posters-HD-1e2c7c5.jpg"
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
                 className="fillLazyimage"
               />
+              <div class="carousel-caption d-none d-md-block captionCar">
+                <h5>The Master</h5>
+                {/* <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
+                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
+                  rhoncus arcu, vel ullamcorper mi.
+                </p> */}
+              </div>
             </div>
             <div class="carousel-item">
               <LazyLoadImage
                 effect="blur"
-                src="https://i.ytimg.com/vi/uylTTnv_6AM/maxresdefault.jpg" // use normal <img> attributes as props
+                src="https://catlingonfilm.files.wordpress.com/2020/12/extraction_movie_poster.jpeg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
               />
+              <div class="carousel-caption d-none d-md-block captionCar">
+                <h5>Extraction</h5>
+                {/* <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
+                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
+                  rhoncus arcu, vel ullamcorper mi.
+                </p> */}
+              </div>
             </div>
             <div class="carousel-item">
               <LazyLoadImage
                 effect="blur"
-                src="https://wallpapercave.com/wp/wp4393360.jpg" // use normal <img> attributes as props
+                src="https://images.thedirect.com/media/article_full/black-adam-characters-poster.jpg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
               />
+              <div class="carousel-caption d-none d-md-block captionCar">
+                <h5>The Rock</h5>
+                {/* <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
+                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
+                  rhoncus arcu, vel ullamcorper mi.
+                </p> */}
+              </div>
             </div>
           </div>
           <button
