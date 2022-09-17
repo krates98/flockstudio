@@ -1,9 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 import "./styles/top10.css";
-
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
@@ -16,7 +14,7 @@ const VideoPlayer = () => {
         <h1>Flock Top 10</h1>
       </div>
       {/* <div data-aos="fade-up" data-aos-duration="1500"> */}
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" data-aos-duration="1500">
         <div className="wrapper">
           <section id="section1">
             <a href="#section3" className="arrow__btn">

@@ -1,18 +1,22 @@
 import { Outlet, Link } from "react-router-dom";
 import React from "react";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 const Layout = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong navtext ">
         <div className="container-fluid">
-          <Link className="navbar-brand " to="/">
-            <img
-              src="/flockLogo.png"
-              alt=""
+          <Link className="navbar-brand navbar-left" to="/">
+            <LazyLoadImage
+              effect="blur"
               width="100%"
               height="100%"
-              className="d-inline-block align-text-top img-responsive hidden-xs"
+              src="/flockLogo.png" // use normal <img> attributes as props
+              placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+              className="d-inline-block align-text-top img-responsive hidden-xs logo"
             />
           </Link>
           <button

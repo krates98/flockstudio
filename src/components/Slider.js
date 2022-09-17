@@ -19,7 +19,7 @@ const Slider = () => {
 
           {/* <img alt="Venom" src="" /> */}
           <div className="text-box text-box1 ">
-            <h1>Joker</h1>
+            <h1>Joker </h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting

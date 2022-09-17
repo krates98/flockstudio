@@ -9,15 +9,17 @@ import Contact from "./components/ContactUs";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<AboutUs />} />
-            <Route path="contact" element={<Contact />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <div className="bodyContainer">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="about" element={<AboutUs />} />
+              <Route path="contact" element={<Contact />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
     );
   }
 }

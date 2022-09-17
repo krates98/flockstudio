@@ -2,10 +2,10 @@ import React from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./styles/caraousel.css";
+import "./styles/trending.css";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 AOS.init();
 
@@ -24,12 +24,13 @@ const TrendingMovies = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <LazyLoadImage
-                effect="blur"
+                effect="opacity"
                 src="https://moviegalleri.net/wp-content/gallery/master-release-posters-hd/Master-Movie-Release-Posters-HD-1e2c7c5.jpg"
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
-                className="fillLazyimage"
+                className="img-responsive"
               />
-              <div class="carousel-caption d-none d-md-block captionCar">
+
+              <div class="carousel-caption">
                 <h5>The Master</h5>
                 {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -41,11 +42,12 @@ const TrendingMovies = () => {
             </div>
             <div class="carousel-item">
               <LazyLoadImage
-                effect="blur"
+                effect="opacity"
                 src="https://catlingonfilm.files.wordpress.com/2020/12/extraction_movie_poster.jpeg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+                className="img-responsive"
               />
-              <div class="carousel-caption d-none d-md-block captionCar">
+              <div class="carousel-caption ">
                 <h5>Extraction</h5>
                 {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -57,11 +59,12 @@ const TrendingMovies = () => {
             </div>
             <div class="carousel-item">
               <LazyLoadImage
-                effect="blur"
+                effect="opacity"
                 src="https://images.thedirect.com/media/article_full/black-adam-characters-poster.jpg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+                className="img-responsive"
               />
-              <div class="carousel-caption d-none d-md-block captionCar">
+              <div class="carousel-caption">
                 <h5>The Rock</h5>
                 {/* <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

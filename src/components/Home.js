@@ -22,7 +22,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
         <div>
           <Slider />
         </div>
@@ -41,7 +41,7 @@ class Home extends React.Component {
         <div>
           <Footer />
         </div>
-      </>
+      </div>
     );
   }
 }
