@@ -171,7 +171,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .slider1 {
     background-color: black;
     padding: 45vh;
@@ -256,8 +256,7 @@
   .banner2 img,
   .banner3 img,
   .banner4 img {
-    position: absolute;
-
-    left: 100px;
+    position: relative;
+    left: 50px;
   }
 }
