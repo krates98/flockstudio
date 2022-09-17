@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import "./styles/trending.css";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 AOS.init();
 
@@ -24,8 +24,8 @@ const TrendingMovies = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <LazyLoadImage
-                effect="opacity"
-                src="https://moviegalleri.net/wp-content/gallery/master-release-posters-hd/Master-Movie-Release-Posters-HD-1e2c7c5.jpg"
+                effect="blur"
+                src="https://cutewallpaper.org/21/seal-team-wallpaper/Wallpaper-gun,-USA,-soldier,-weapon,-man,-rifle,-bulletproof-.jpg"
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
                 className="img-responsive"
               />
@@ -42,8 +42,8 @@ const TrendingMovies = () => {
             </div>
             <div class="carousel-item">
               <LazyLoadImage
-                effect="opacity"
-                src="https://catlingonfilm.files.wordpress.com/2020/12/extraction_movie_poster.jpeg" // use normal <img> attributes as props
+                effect="blur"
+                src="https://gumlet.assettype.com/freepressjournal/2022-01/03dc29a2-79fb-4d55-acd4-ec53ff6efaa5/272734039_256339036635962_4776828115644958077_n_webp.jpg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
                 className="img-responsive"
               />
@@ -59,8 +59,8 @@ const TrendingMovies = () => {
             </div>
             <div class="carousel-item">
               <LazyLoadImage
-                effect="opacity"
-                src="https://images.thedirect.com/media/article_full/black-adam-characters-poster.jpg" // use normal <img> attributes as props
+                effect="blur"
+                src="https://c4.wallpaperflare.com/wallpaper/995/234/516/movie-12-strong-wallpaper-preview.jpg" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
                 className="img-responsive"
               />

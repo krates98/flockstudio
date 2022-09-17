@@ -25,4 +25,11 @@
     background-image: linear-gradient(to right, #00f8db, #0404d0);
     border-radius: 10px;
   }
+
+  .carousel-item img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
 }
