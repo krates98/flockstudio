@@ -60,7 +60,7 @@ const TrendingMovies = () => {
             <div class="carousel-item">
               <LazyLoadImage
                 effect="blur"
-                src="https://c4.wallpaperflare.com/wallpaper/995/234/516/movie-12-strong-wallpaper-preview.jpg" // use normal <img> attributes as props
+                src="https://assets.thehansindia.com/h-upload/2022/03/14/1281604-whatsapp-image-2022-03-14-at-130148-9.webp" // use normal <img> attributes as props
                 placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
                 className="img-responsive"
               />

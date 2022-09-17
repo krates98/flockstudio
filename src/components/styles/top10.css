@@ -19,7 +19,7 @@
   margin: 20px 0;
 }
 .wrapper section .item {
-  padding: 0 2px;
+  padding: 0 15px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {
