@@ -1,6 +1,6 @@
 import React from "react";
 import ProductsItem from "./ProductItem";
-import "./style.css";
+import "./styles/popular.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -21,7 +21,7 @@ const ProductsDisplay = ({ data, onVideoSelect }) => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
-        className="d-flex flex-wrap mb-3 justify-content-around cards "
+        className="d-flex flex-wrap justify-content-evenly  cards "
       >
         {renderedList}
       </div>

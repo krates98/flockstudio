@@ -4,13 +4,15 @@ import React from "react";
 const Layout = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong navtext">
+      <nav className="navbar navbar-expand-lg navbar-dark shadow-5-strong navtext ">
         <div className="container-fluid">
-          <Link className="navbar-brand text-white" to="/">
+          <Link className="navbar-brand " to="/">
             <img
               src="/flockLogo.png"
               alt=""
-              className="d-inline-block align-text-top"
+              width="100%"
+              height="100%"
+              className="d-inline-block align-text-top img-responsive hidden-xs"
             />
           </Link>
           <button

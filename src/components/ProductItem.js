@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Popup from "reactjs-popup";

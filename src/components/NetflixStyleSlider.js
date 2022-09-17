@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+import "./styles/top10.css";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";

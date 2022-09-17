@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* Slider */
+
+.slider1 {
+  padding: 45vh;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  overflow: hidden;
+}
+
+.banner1 img,
+.banner2 img,
+.banner3 img,
+.banner4 img {
+  width: 105%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  animation: zoom-out 5s linear infinite;
+}
+/* @media screen and (min-width: 500px) {
+  .banner1 img,
+  .banner2 img,
+  .banner3 img,
+  .banner4 img {
+    width: 105%;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    animation: zoom-out 5s linear infinite;
+    object-fit: contain;
+  }
+} */
+
+@keyframes zoom-out {
+  100% {
+    width: 100%;
+  }
+}
+
+.text-box {
+  width: 600px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  color: white;
+  animation: textup 12s linear infinite;
+  transform: translateY(100px);
+  text-shadow: 5px 5px 10px black;
+}
+
+@keyframes textup {
+  10% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.text-box1 {
+  animation-delay: 0s;
+}
+.text-box2 {
+  animation-delay: 3s;
+}
+.text-box3 {
+  animation-delay: 6s;
+}
+.text-box4 {
+  animation-delay: 9s;
+}
+
+.text-box h1 {
+  margin-bottom: 40px;
+  font-size: 90px;
+  color: #cecece;
+}
+.text-box p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+
+.text-box span {
+  background: red;
+  height: 1px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+}
+.banner1 {
+  animation: slide1 12s linear infinite;
+}
+.banner2 {
+  animation: slide2 12s linear infinite;
+}
+.banner3 {
+  animation: slide3 12s linear infinite;
+}
+.banner4 {
+  animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1 {
+  0% {
+    visibility: visible;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide3 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide4 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}

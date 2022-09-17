@@ -3,7 +3,8 @@ import ProductsDisplay from "./ProductsDisplay";
 import Footer from "./Footer";
 import Slider from "./Slider";
 import data from "../data.json";
-import VideoPlayer from "./VideoPlayer";
+import "./styles/navbar.css";
+import VideoPlayer from "./NetflixStyleSlider";
 import TrendingMovies from "./TrendingMovies";
 
 class Home extends React.Component {
