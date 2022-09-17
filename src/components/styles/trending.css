@@ -1,35 +1,10 @@
 /* Trending Movies */
-
-.carousel-inner {
-  width: 70%;
-  height: 400px;
-  margin: 0 auto;
-  border-radius: 10px 10px 10px 10px;
-  font-family: Poppins;
+.trendingSwiper {
+  background-color: black;
 }
-
-.carousel-caption {
-  position: absolute;
-  top: 300px;
-}
-
-.carousel-caption h5 {
-  font-size: 50px;
-  background-image: linear-gradient(to right, #00f8db, #0404d0);
+.trendingSwiper .swiper-slide img {
+  width: 90%;
+  height: 600px;
+  object-fit: cover;
   border-radius: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .carousel-caption h5 {
-    font-size: 30px;
-    background-image: linear-gradient(to right, #00f8db, #0404d0);
-    border-radius: 10px;
-  }
-
-  .carousel-item img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: 50% 50%;
-  }
 }

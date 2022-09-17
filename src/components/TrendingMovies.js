@@ -1,7 +1,14 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay, Navigation } from "swiper";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
+
 import "./styles/trending.css";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -15,86 +22,85 @@ const TrendingMovies = () => {
       <div data-aos="fade-up" data-aos-duration="1500" className="titleHead">
         <h1>Trending On Flock</h1>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide customStyleSlide carousel-fade"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <LazyLoadImage
-                effect="blur"
-                src="https://cutewallpaper.org/21/seal-team-wallpaper/Wallpaper-gun,-USA,-soldier,-weapon,-man,-rifle,-bulletproof-.jpg"
-                placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
-                className="img-responsive"
-              />
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: true,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="trendingSwiper"
+        breakpoints={{
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          "@1.50": {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        }}
+      >
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://m.media-amazon.com/images/I/71niXI3lxlL._SY679_.jpg"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
 
-              <div class="carousel-caption">
-                <h5>The Master</h5>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
-                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
-                  rhoncus arcu, vel ullamcorper mi.
-                </p> */}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <LazyLoadImage
-                effect="blur"
-                src="https://gumlet.assettype.com/freepressjournal/2022-01/03dc29a2-79fb-4d55-acd4-ec53ff6efaa5/272734039_256339036635962_4776828115644958077_n_webp.jpg" // use normal <img> attributes as props
-                placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
-                className="img-responsive"
-              />
-              <div class="carousel-caption ">
-                <h5>Extraction</h5>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
-                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
-                  rhoncus arcu, vel ullamcorper mi.
-                </p> */}
-              </div>
-            </div>
-            <div class="carousel-item">
-              <LazyLoadImage
-                effect="blur"
-                src="https://assets.thehansindia.com/h-upload/2022/03/14/1281604-whatsapp-image-2022-03-14-at-130148-9.webp" // use normal <img> attributes as props
-                placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
-                className="img-responsive"
-              />
-              <div class="carousel-caption">
-                <h5>The Rock</h5>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  ut neque libero. Vivamus hendrerit velit orci. Aliquam cursus
-                  porttitor est, at gravida metus sagittis feugiat. Etiam ac
-                  rhoncus arcu, vel ullamcorper mi.
-                </p> */}
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://i.pinimg.com/originals/bc/d5/c9/bcd5c9519581acc60bd60a429ab0c88f.jpg"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://img.indiefolio.com/fit-in/1100x0/filters:format(webp):fill(transparent)/project/body/d517ae40ec1a6837fb755d865937ed07.jpg"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c618cd88432989.5dd5e72e505d1.jpg"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <LazyLoadImage
+            effect="blur"
+            src="https://assets.mubicdn.net/images/notebook/post_images/33421/images-w1400.jpg?1625400709"
+            placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
+            className="img-responsive"
+          />
+        </SwiperSlide>
+      </Swiper>
     </>
   );
 };

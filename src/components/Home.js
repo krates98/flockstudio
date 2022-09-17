@@ -11,9 +11,11 @@ class Home extends React.Component {
   state = { selectedVideo: null };
 
   componentDidMount() {
-    // const rand = Math.floor(Math.random() * 28);
-    // this.setState({ selectedVideo: data.movies[rand] });
-    console.log(this.state.selectedVideo);
+    // const script = document.createElement("script");
+    // script.async = true;
+    // script.src = "./top10.js";
+    // script.onload = () => this.scriptLoaded();
+    // document.head.appendChild(script);
   }
 
   onVideoSelect = (dat) => {
