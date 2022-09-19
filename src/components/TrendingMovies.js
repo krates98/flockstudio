@@ -22,7 +22,7 @@ const TrendingMovies = () => {
       <div data-aos="fade-up" data-aos-duration="1500" className="titleHead">
         <h1>Trending On Flock</h1>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div data-aos="fade-up" data-aos-duration="1500" className="trendCenter">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}

@@ -21,7 +21,7 @@ const ProductsDisplay = ({ data, onVideoSelect }) => {
       <div
         data-aos="fade-up"
         data-aos-duration="1500"
-        className="d-flex flex-wrap justify-content-evenly  cards "
+        className="d-flex flex-wrap justify-content-evenly cards"
       >
         {renderedList}
       </div>
