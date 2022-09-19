@@ -26,6 +26,8 @@ const VideoPlayer = () => {
       </div>
 
       <Swiper
+        data-aos="fade-up"
+        data-aos-duration="1500"
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
@@ -36,19 +38,19 @@ const VideoPlayer = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
         breakpoints={{
-          "@0.00": {
+          320: {
             slidesPerView: 1,
             spaceBetween: 10,
           },
-          "@0.75": {
+          700: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          "@1.00": {
+          1024: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 50,
           },
-          "@1.50": {
+          1300: {
             slidesPerView: 4,
             spaceBetween: 50,
           },

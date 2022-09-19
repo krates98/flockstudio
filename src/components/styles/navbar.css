@@ -36,15 +36,15 @@ body {
 
 .titleHead {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-family: Poppins;
   margin: 20px;
+  margin-top: 5%;
   color: white;
-  text-align: center;
 }
 
 .titleHead h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 600;
   background-image: linear-gradient(to right, #00f8db, #0404d0);
   color: transparent;
@@ -52,13 +52,13 @@ body {
   -webkit-background-clip: text;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .navbar-brand {
     width: 70%;
   }
 
   .titleHead h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     background-image: linear-gradient(to right, #00f8db, #0404d0);
     color: transparent;

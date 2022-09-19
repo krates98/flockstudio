@@ -11,15 +11,15 @@ const Slider = () => {
         <div className="banner1">
           <LazyLoadImage
             width={1920}
-            height={1200}
+            height={1080}
             effect="blur"
-            src="https://wallpaper.dog/large/694689.jpg" // use normal <img> attributes as props
+            src="https://wallpaper.dog/large/694692.jpg" // use normal <img> attributes as props
             placeholderSrc="https://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png"
           />
 
           {/* <img alt="Venom" src="" /> */}
           <div className="text-box text-box1 ">
-            <h1>Joker </h1>
+            <h1>Avengers</h1>
             <span></span>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
